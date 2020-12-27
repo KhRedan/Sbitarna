@@ -5,7 +5,7 @@ une plateforme web permettant d'optimiser la gestion d'un hopital, notre platefo
 
 Notre projet se compose de 2 parties de codes intégrés:
 - une partie front située au dossier sbitarnaClient.
-- les autres parties du code sont le backend de l'application
+- les autres parties du code sont le backend de l'application.
 
 
 Nous avons pensé a vous et pour vous éviter d'installer l'application nous avons hebergé notre application sur le lien suivant : http://51.75.253.157:9001/
