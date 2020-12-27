@@ -1,0 +1,88 @@
+.addStockContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.addStockForm {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffffde;
+  width: 700px;
+  height: 600px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 30px #bbbbbb;
+}
+
+.addStockForm > div {
+  width: calc(100% - 140px);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.addStockForm button {
+  width: 200px;
+  height: 60px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background-color: #0e5686;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.addStockForm button:hover {
+  cursor: pointer;
+  background-color: #1369a3;
+}
+
+.addStockForm label {
+  width: 170px;
+  outline: none;
+  border: none;
+  color: #0e5686;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.addStockForm input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.addStockForm input {
+  width: 80%;
+  height: 50px;
+  line-height: 60px;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 10px;
+  background-color: #0e5686;
+  border-radius: 15px;
+}
+.addStockForm select {
+  width: 80%;
+  height: 40px;
+  line-height: 60px;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  background-color: #0e5686;
+  border-radius: 15px;
+}

@@ -1,0 +1,20 @@
+.pharmacieContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  padding-bottom: 0px;
+  background-color: #ffffff9f;
+}
+
+.pharmacieTitle {
+  color: #0e5686;
+  font-size: 55px;
+  font-weight: bold;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.pharmacieTableContainer {
+  height: calc(80% - 50px);
+}
